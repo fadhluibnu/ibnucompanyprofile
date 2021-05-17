@@ -117,7 +117,9 @@ svg {
 /* root */
 
 /* nabvar */
-
+.navbar {
+  height: 70px;
+}
 .nav-link {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -161,6 +163,7 @@ svg {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  background-color: #1d1ad1;
   /* background-color: blueviolet; */
 }
 #slide-2 img {
@@ -259,7 +262,6 @@ svg {
   #slide-2 {
     width: 420px;
     height: 999px;
-    background-color: #1d1ad1;
   }
   #slide-2 img {
     width: 363.44px;

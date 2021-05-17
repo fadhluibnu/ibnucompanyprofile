@@ -138,7 +138,7 @@ svg {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* background-color: chartreuse; */
+  background-color: chartreuse;
 }
 .container-text {
   width: 693px;
@@ -248,12 +248,15 @@ svg {
     width: 95%;
     height: 868px;
   }
-  .container-text {
+  #slide-1 .container-text {
     width: 374px;
   }
+  #slide-1 .container-text h1 {
+    width: 330px;
+  }
   .img-slide-1 {
-    width: 357.03px;
-    height: 211px;
+    width: 345px;
+    height: 203.89px;
   }
 
   /* slide 2 */
@@ -267,11 +270,10 @@ svg {
   }
   #slide-2 .container-text {
     width: 330px;
-    height: 475px;
   }
   .box {
-    width: 350px;
-    height: 160px;
+    width: 330px;
+    height: 1px;
   }
   #slide-2 .text {
     width: 300px;

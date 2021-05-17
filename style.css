@@ -138,7 +138,7 @@ svg {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
 }
 .container-text {
   width: 693px;
@@ -249,10 +249,7 @@ svg {
     height: 868px;
   }
   #slide-1 .container-text {
-    width: 374px;
-  }
-  #slide-1 .container-text h1 {
-    width: 330px;
+    width: 95%;
   }
   .img-slide-1 {
     width: 345px;

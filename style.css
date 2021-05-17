@@ -236,7 +236,7 @@ svg {
   /* slide 2 */
 
   #slide-2 {
-    width: 834px;
+    width: 95%;
     height: 1262px;
     flex-direction: column;
   }
@@ -261,7 +261,7 @@ svg {
 
   /* slide 2 */
   #slide-2 {
-    width: 420px;
+    width: 95%;
     height: 999px;
   }
   #slide-2 img {
@@ -269,13 +269,15 @@ svg {
     height: 293.93px;
   }
   #slide-2 .container-text {
-    width: 375px;
+    width: 330px;
     height: 475px;
   }
   .box {
-    width: 374px;
-    height: 187px;
+    width: 350px;
+    height: 160px;
   }
-
+  #slide-2 .text {
+    width: 300px;
+  }
   /* slide 2 */
 }

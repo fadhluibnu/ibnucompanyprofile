@@ -161,7 +161,6 @@ svg {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #1d1ad1;
   /* background-color: blueviolet; */
 }
 #slide-2 img {
@@ -230,7 +229,6 @@ svg {
   }
   .container-text {
     width: 80%;
-    height: 302px;
   }
 
   /* slide 2 */
@@ -247,12 +245,11 @@ svg {
 /* phone and less */
 @media (max-width: 680px) {
   #slide-1 {
-    width: 374px;
-    height: 695px;
+    width: 95%;
+    height: 868px;
   }
   .container-text {
     width: 374px;
-    height: 442px;
   }
   .img-slide-1 {
     width: 357.03px;

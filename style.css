@@ -219,23 +219,36 @@ svg {
 #slide-3 {
   width: 95%;
   height: 800px;
+}
+#slide-3 .container {
+  margin: auto;
+  height: 100%;
+  justify-content: space-between;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+}
+#slide-3 .box-project {
+  width: 1300px;
+  height: 535px;
+  display: flex;
+  justify-content: space-between;
 }
 #slide-3 .project {
-  width: 95%;
-  height: 525px;
-}
-#slide-3 .project-1 {
   width: 607px;
   height: 525px;
   padding: 23px;
   background: #ffffff;
   box-shadow: 0px 0px 21px -5px rgba(31, 126, 220, 0.24);
   border-radius: 10px;
+  transition: 0.6s;
 }
-#slide-3 .box-img {
+#slide-3 .project:hover {
+  -webkit-transform: scale(1.009);
+  transform: scale(1.008);
+  cursor: pointer;
+  box-shadow: 0px 0px 21px 10px rgba(31, 126, 220, 0.24);
+}
+#slide-3 .box-img-1 {
   width: 563px;
   height: 357px;
   border-radius: 10px;
@@ -289,6 +302,20 @@ svg {
   }
 
   /* slide 2 */
+
+  /* slide 3 */
+
+  #slide-3 {
+    height: 1401px;
+  }
+
+  #slide-3 .box-project {
+    width: 607px;
+    height: 1108px;
+    flex-direction: column;
+  }
+
+  /* slide 3 */
 }
 
 /* phone and less */
@@ -325,4 +352,8 @@ svg {
     width: 300px;
   }
   /* slide 2 */
+
+  /* slide 3 */
+
+  /* slide 4 */
 }

@@ -130,6 +130,14 @@ body::after {
   background-size: cover;
   background-repeat: no-repeat;
 }
+#slide-3 .box-img-2 {
+  width: 458.4px;
+  height: 290.68px;
+  border-radius: 10px;
+  background-image: url(asset/project/project\ 2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 /* slide 3 */
 
@@ -294,6 +302,19 @@ body::after {
     flex-direction: column;
   }
   /* slide 3 */
+
+  /* slide 4 */
+
+  #slide-4 {
+    height: 1241px;
+    flex-direction: column-reverse;
+  }
+  #slide-4 img {
+    width: 637px;
+    height: 389.31px;
+  }
+
+  /* last slide 4 */
 }
 
 /* phone and less */
@@ -348,9 +369,36 @@ body::after {
   #slide-3 .project .margin-top {
     margin: 0;
   }
-  #slide-3 .box-img-1 {
+  #slide-3 .box-img-1,
+  #slide-3 .box-img-2 {
     width: 298.33px;
     height: 189.17px;
   }
   /* slide 3 */
+
+  /* slide 4 */
+
+  #slide-4 {
+    width: 419px;
+    height: 1153px;
+    flex-direction: column-reverse;
+  }
+  #slide-4 img {
+    width: 339px;
+    height: 207.19px;
+  }
+  #slide-4 .container-text {
+    width: 374px;
+    height: 768.79px;
+  }
+  #slide-4 .text {
+    width: 267px;
+    height: 130.28px;
+  }
+
+  #slide-4 .container-text {
+    width: 374px;
+    height: 670.49px;
+  }
+  /* last slide 4 */
 }

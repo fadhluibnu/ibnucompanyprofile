@@ -2,7 +2,7 @@ body::after {
   position: absolute;
   content: '';
   z-index: -1;
-  opacity: 0.2;
+  opacity: 0.09;
   display: block;
   width: 100%;
   height: 100%;
@@ -10,12 +10,15 @@ body::after {
 }
 
 /* nabvar */
+.navbar {
+  box-shadow: 0px 2px 10px 0px #8d94ff;
+}
 .navbar-light .navbar-nav .nav-link {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
-  color: #505050;
+  color: #323232;
 }
 .navbar-light .navbar-nav .nav-link:hover {
   color: #423fff;
@@ -234,6 +237,42 @@ body::after {
 }
 /* last slide 4 */
 
+/* slide 5 */
+#slide-5 {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#slide-5 img {
+  width: 660px;
+  height: 435.22px;
+}
+#slide-5 .box-contain {
+  width: 550px;
+}
+#slide-5 .box {
+  width: 490px;
+  height: 350px;
+  overflow-y: scroll;
+}
+#slide-5 .box-service {
+  width: 440px;
+  height: 350px;
+  padding: 21px;
+  background: #ffffff;
+  box-shadow: 0px 0px 21px -5px rgba(31, 126, 220, 0.24);
+  border-radius: 10px;
+}
+#slide-5 .img {
+  width: 377.95px;
+  height: 189.89px;
+  background-image: url(asset/illustrator/website.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* last slide 5 */
+
 /* Large devices (desktops and up) */
 
 @media (min-width: 992px) {
@@ -315,6 +354,18 @@ body::after {
   }
 
   /* last slide 4 */
+
+  /* slide 5 */
+  #slide-5 {
+    height: 1180px;
+    flex-direction: column;
+  }
+
+  #slide-5 img {
+    width: 660px;
+    height: 435.22px;
+  }
+  /* last slide 5 */
 }
 
 /* phone and less */
@@ -399,4 +450,30 @@ body::after {
     height: auto;
   }
   /* last slide 4 */
+
+  /* slide 5 */
+  #slide-5 {
+    height: 894px;
+  }
+
+  #slide-5 img {
+    width: 335.14px;
+    height: 221px;
+  }
+  #slide-5 .box-contain {
+    width: 355px;
+  }
+  #slide-5 .box {
+    width: 370px;
+  }
+  #slide-5 .box-service {
+    width: 346px;
+    height: 323px;
+  }
+  #slide-5 .img {
+    width: 297.21px;
+    height: 149.33px;
+  }
+
+  /* last slide 5 */
 }

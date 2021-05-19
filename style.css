@@ -388,17 +388,15 @@ body::after {
     height: 207.19px;
   }
   #slide-4 .container-text {
-    width: 374px;
-    height: 768.79px;
+    width: 330px;
+    height: auto;
+  }
+  #slide-4 .box-contain {
+    height: auto;
   }
   #slide-4 .text {
-    width: 267px;
-    height: 130.28px;
-  }
-
-  #slide-4 .container-text {
-    width: 374px;
-    height: 670.49px;
+    width: 230px;
+    height: auto;
   }
   /* last slide 4 */
 }

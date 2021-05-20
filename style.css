@@ -273,6 +273,36 @@ body::after {
 }
 /* last slide 5 */
 
+/* slide 6 */
+#slide-6 {
+  width: 95%;
+  /* height: 300px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* background-color: orange; */
+}
+#slide-6 .contain {
+  width: 80%;
+  padding: 40px;
+  margin: auto;
+  background-color: #423fff;
+  border-radius: 10px;
+}
+#slide-6 .p2 {
+  color: #f0f0f0;
+}
+#slide-6 .h2 {
+  color: #ffffff;
+}
+#slide-6 .h4 {
+  color: #ffffff;
+}
+#slide-6 .p3 {
+  color: #f0f0f0;
+}
+/* last slide 6 */
+
 /* Large devices (desktops and up) */
 
 @media (min-width: 992px) {

@@ -117,13 +117,13 @@ body::after {
   background: #ffffff;
   box-shadow: 0px 0px 21px -5px rgba(31, 126, 220, 0.24);
   border-radius: 10px;
-  transition: 0.6s;
+  transition: 0.4s;
 }
 #slide-3 .project:hover {
   -webkit-transform: scale(1.009);
   transform: scale(1.008);
   cursor: pointer;
-  box-shadow: 0px 0px 21px 10px rgba(31, 126, 220, 0.24);
+  box-shadow: -13px 14px 14px -4px rgb(31 126 220 / 20%);
 }
 #slide-3 .box-img-1 {
   width: 458.4px;

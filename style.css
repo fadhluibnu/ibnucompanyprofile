@@ -461,18 +461,20 @@ body::after {
     height: 221px;
   }
   #slide-5 .box-contain {
-    width: 355px;
+    width: 330px;
   }
   #slide-5 .box {
-    width: 370px;
+    width: 292.52px;
+    height: auto;
+    overflow: visible;
   }
   #slide-5 .box-service {
-    width: 346px;
-    height: 323px;
+    width: 285px;
+    height: 354px;
   }
   #slide-5 .img {
-    width: 297.21px;
-    height: 149.33px;
+    width: 244.9px;
+    height: 123.04px;
   }
 
   /* last slide 5 */

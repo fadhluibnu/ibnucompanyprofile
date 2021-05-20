@@ -276,18 +276,14 @@ body::after {
 /* slide 6 */
 #slide-6 {
   width: 95%;
-  /* height: 300px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  /* background-color: orange; */
 }
 #slide-6 .contain {
   width: 80%;
-  padding: 40px;
   margin: auto;
-  background-color: #423fff;
+  padding: 30px;
+  box-sizing: content-box;
   border-radius: 10px;
+  background-color: #423fff;
 }
 #slide-6 .p2 {
   color: #f0f0f0;

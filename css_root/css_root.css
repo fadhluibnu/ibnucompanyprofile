@@ -180,6 +180,15 @@ li {
   text-transform: capitalize;
   color: #060d33;
 }
+.h5 {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #060d33;
+}
 .p1 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -204,6 +213,13 @@ li {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  color: #47475f;
+}
+.p4 {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
   color: #47475f;
 }
 ::-webkit-scrollbar {

@@ -279,10 +279,17 @@ body::after {
   cursor: pointer;
   box-shadow: 6px 6px 0px 0px rgb(21 31 102 / 16%);
 }
-#slide-5 .img {
+#slide-5 .img-1 {
   width: 377.95px;
   height: 189.89px;
   background-image: url(asset/illustrator/website.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#slide-5 .img-2 {
+  width: 387px;
+  height: 174.11px;
+  background-image: url(asset/illustrator/apps.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -553,9 +560,13 @@ footer .p3 {
     width: 285px;
     height: 354px;
   }
-  #slide-5 .img {
+  #slide-5 .img-1 {
     width: 244.9px;
     height: 123.04px;
+  }
+  #slide-5 .img-2 {
+    width: 243px;
+    height: 109.33px;
   }
 
   /* last slide 5 */

@@ -1,0 +1,11 @@
+#about-us {
+  width: 100%;
+  height: auto;
+}
+#about-us .box {
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+  border: 1px solid #979eff;
+  border-radius: 10px;
+}

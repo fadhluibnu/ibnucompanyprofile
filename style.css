@@ -350,6 +350,54 @@ footer .p3 {
 }
 /* last footer */
 
+/* Overlay */
+.overlay {
+  position: fixed;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  background-color: rgba(3, 4, 29, 0);
+  z-index: 999999999;
+  transition: 0.5s;
+}
+.overlay:target {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(3, 4, 29, 0.8);
+}
+.overlay .container {
+  padding: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  animation: zoomFade 1s;
+}
+.overlay .close svg {
+  transform: scale(1.5);
+  color: #423fff;
+  transition: 0.5s;
+}
+.overlay .close svg:hover path {
+  color: #040366;
+}
+
+@keyframes zoomFade {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/* last overlay */
+
 /* Large devices (desktops and up) */
 
 @media (min-width: 992px) {

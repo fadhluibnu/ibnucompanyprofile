@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <!-- my fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" />
+    <!-- my css -->
+    <link rel="stylesheet" href="../style.css" />
+    <!-- my css about-us -->
+    <link rel="stylesheet" href="../css/about-us.css" />
+
+    <!-- my css root -->
+    <link rel="stylesheet" href="../css_root/css_root.css" />
+
+    <title>BuTo || Build Together</title>
+  </head>
+  <body style="overflow-x: hidden">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-body fixed-top rounded">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../asset/logo/Logo BuTo 1.svg" alt="" width="88" height="53" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="html/about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#formContact">
+                <button class="button-1">
+                  <p>Contact</p>
+                  <span class="next"><img src="../asset/logo/next.svg" alt="" /></span>
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- contact -->
+    <div class="overlay" id="formContact">
+      <div class="container">
+        <a href="#close" class="close p4"
+          ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+          </svg>
+        </a>
+        <form class="margin-top-30" name="form">
+          <div class="alert alert-primary alert-dismissible fade show d-none myAlert" role="alert">
+            <strong>Thank You!</strong> Your Response Has Recorded.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+          <div class="mb-3">
+            <label for="Username" class="form-label p4">Username</label>
+            <input type="text" class="form-control" id="Username" aria-describedby="Username" />
+          </div>
+          <div class="mb-3">
+            <label for="Email" class="form-label p4">Email</label>
+            <input type="email" class="form-control" id="Email" aria-describedby="Email" />
+          </div>
+          <div class="mb-3">
+            <label for="Massage" class="form-label p4">Massage</label>
+            <textarea class="form-control" id="Massage" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-send submit">Submit</button>
+
+          <button class="btn btn-primary btn-loading d-none loading" type="button" disabled>
+            <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+            Loading...
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- last contact -->
+
+    <!-- about us -->
+    <section id="about-us" class="margin-top-100">
+      <div class="container">
+        <div class="box"></div>
+      </div>
+    </section>
+
+    <!-- last about us -->
+
+    <!-- footer -->
+    <footer class="margin-top-100 rounded">
+      <div class="container">
+        <div class="contain">
+          <img src="../asset/logo/Logo BuTo 1.svg" alt="illustration" />
+          <div class="box">
+            <div class="text">
+              <h4 class="h5">Company</h4>
+              <ul>
+                <li><a href="" class="p4">About Us</a></li>
+                <li><a href="" class="p4">Projects</a></li>
+                <li><a href="#formContact" class="p4">Contact</a></li>
+                <li><a href="" class="p4">Testimonials</a></li>
+              </ul>
+            </div>
+            <div class="text margin-left-100">
+              <h4 class="h5">Products</h4>
+              <ul>
+                <li><a href="" class="p4">Mobile Apss</a></li>
+                <li><a href="" class="p4">Website</a></li>
+              </ul>
+            </div>
+            <div class="text margin-left-100">
+              <h4 class="h5">Social Media</h4>
+              <ul>
+                <li><a href="" class="p4">Instagram</a></li>
+                <li><a href="" class="p4">Facebook</a></li>
+                <li><a href="" class="p4">Twitter</a></li>
+              </ul>
+            </div>
+            <div class="text margin-left-100">
+              <h4 class="h5">service</h4>
+              <ul>
+                <li><a href="" class="p4">send@buto.com</a></li>
+                <li><a href="" class="p4">0831374</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <p class="p3">Copyright 2021</p>
+      </div>
+    </footer>
+
+    <!-- last footer -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
